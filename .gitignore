@@ -1,0 +1,40 @@
+# Entornos Python locales
+.venv/
+venv/
+env/
+ENV/
+
+# Cachés, tests y artefactos de Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+build/
+dist/
+*.egg-info/
+
+# Credenciales y configuración local
+.env
+.env.*
+!.env.example
+!.env.*.example
+.secrets/
+secrets/
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Archivos locales del sistema y editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+*.swp
